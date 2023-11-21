@@ -1,5 +1,56 @@
-@use '../util/' as a;
-@use '../components/' as c;
-@use '../states/' as s;
-@use '../themes/' as t;
+@use "../util/" as a;
+@use "../components/" as c;
+@use "../states/" as s;
+@use "../themes/" as t;
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+
+  padding: 1.6rem 1.2rem;
+
+  &__menu {
+    &__btn {
+      display: none;
+    }
+
+    &__nav {
+      &__lista {
+        display: flex;
+        gap: 1.4rem;
+
+        a {
+          display: block;
+          font-size: 1.8rem;
+          padding: 4px 8px;
+          color: var(--p1);
+        }
+
+        a:last-child {
+          padding: 8px 12px;
+          border: 2px solid var(--p0);
+          border-bottom-left-radius: 12px;
+          border-top-right-radius: 12px;
+          margin-left: 4px;
+        }
+
+        li {
+          display: flex;
+          align-items: center;
+          gap: 1.4rem;
+
+          span {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: var(--p0);
+          }
+        }
+      }
+    }
+  }
+}

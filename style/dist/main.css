@@ -37,6 +37,61 @@ main {
   --font-default: "Lato", sans-serif;
 }
 
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 1.6rem 1.2rem;
+}
+.header__menu__btn {
+  display: none;
+}
+.header__menu__nav__lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.4rem;
+}
+.header__menu__nav__lista a {
+  display: block;
+  font-size: 1.8rem;
+  padding: 4px 8px;
+  color: var(--p1);
+}
+.header__menu__nav__lista a:last-child {
+  padding: 8px 12px;
+  border: 2px solid var(--p0);
+  border-bottom-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-left: 4px;
+}
+.header__menu__nav__lista li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.4rem;
+}
+.header__menu__nav__lista li span {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--p0);
+}
+
 body {
   background-color: rgb(255, 255, 255);
+  font-family: var(--font-default);
+  letter-spacing: 0.6px;
 }/*# sourceMappingURL=main.css.map */
