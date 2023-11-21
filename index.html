@@ -12,10 +12,10 @@
 
     <!-- SEO Geral -->
 
-    <title>titulo do projeto</title>
+    <title>Estudo Javascript</title>
     <meta
       name="description"
-      content="descreva o projeto aqui até 150 caracteres, é mostrado na busca"
+      content="Estudo de JavaScript aplicado a um futuro projeto chamado REVISA TRABALHOS"
     />
     <link rel="canonical" href="Link único da página" />
     <meta name="author" content="nome do autor do site" />
@@ -59,12 +59,44 @@
 
     <!-- Kit de fontes do google abaixo -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- link do css -->
 
     <link rel="stylesheet" href="style/dist/main.css" />
   </head>
   <body>
-    <h1>teste</h1>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="assets/logo.svg" alt="Brand Revisa Projetos" />
+      </a>
+
+      <div class="header__menu">
+        <button
+          class="header__menu__btn"
+          aria-expanded="false"
+          aria-controls="menu"
+          aria-haspopup="true"
+          aria-label="Abrir Menu"
+        >
+          MENU
+          <span class="header__menu__btn__burguer"></span>
+        </button>
+
+        <nav class="header__menu__nav" id="menu" role="menu">
+          <ul class="header__menu__nav__lista">
+            <li><a href="#">Serviços</a> <span></span></li>
+            <li><a href="#">Equipe</a><span></span></li>
+            <li><a href="#">Orçamento</a><span></span></li>
+            <li><a href="#">Meus Projetos</a><span></span></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <script src="./scripts/javascript/app.js"></script>
   </body>

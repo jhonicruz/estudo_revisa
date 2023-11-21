@@ -1,35 +1,30 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  list-style: none;
 }
 
-img{ 
-    
-    display:block;
+img {
+  display: block;
 }
 
-html
-{
-    font-size: 62.5%; //para cada 10px  será considerado 1rem
-
+html {
+  font-size: 62.5%; //para cada 10px  será considerado 1rem
 }
 
-body
-{
-    font-size: 1.6rem;
-    font-family: sans-serif;
-
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
 }
 
 /**
  * Render the `main` element consistently in IE.
  */
 
- main
- {
-    display: block;
- }
+main {
+  display: block;
+}

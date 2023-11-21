@@ -5,6 +5,8 @@
           box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  list-style: none;
 }
 
 img {
@@ -27,6 +29,14 @@ main {
   display: block;
 }
 
-body {
-  background-color: dodgerblue;
+:root {
+  --p0: #241ec3;
+  --n0: #fff;
+  --n1: #000;
+  --n2: #4b4a4e;
+  --font-default: "Lato", sans-serif;
 }
+
+body {
+  background-color: rgb(255, 255, 255);
+}/*# sourceMappingURL=main.css.map */
