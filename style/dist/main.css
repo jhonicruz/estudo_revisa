@@ -60,11 +60,26 @@ main {
   display: flex;
   gap: 1.4rem;
 }
+.header__menu__nav__lista a:not(:last-child)::before {
+  content: "";
+  width: 0;
+  height: 0.8px;
+  background-color: rgba(0, 0, 0, 0.521);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all 350ms;
+  transition: all 350ms;
+}
+.header__menu__nav__lista a:not(:last-child):hover::before {
+  width: 100%;
+}
 .header__menu__nav__lista a {
   display: block;
   font-size: 1.8rem;
   padding: 4px 8px;
   color: var(--p1);
+  position: relative;
 }
 .header__menu__nav__lista a:last-child {
   padding: 8px 12px;
