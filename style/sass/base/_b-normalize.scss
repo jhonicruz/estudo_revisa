@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img{ 
+    
+    display:block;
+}
+
+html
+{
+    font-size: 62.5%; //para cada 10px  será considerado 1rem
+
+}
+
+body
+{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+ main
+ {
+    display: block;
+ }

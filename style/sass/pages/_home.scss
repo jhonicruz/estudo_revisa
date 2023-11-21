@@ -1,0 +1,12 @@
+@use '../components/' as c;
+@use '../layout/' as l;
+@use '../states/' as s;
+@use '../themes/' as t;
+@use '../util/' as u;
+@use '../vendor/' as v;
+
+body
+{
+    background-color: dodgerblue;
+}
+
